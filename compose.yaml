@@ -1,0 +1,8 @@
+service:
+  NewServer:
+    build: .
+    container_name: chechurov
+    image: chechurov:latest
+    ports:
+      - "8085:8085"
+    restart: always
